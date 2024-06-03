@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "noEmit": true,
+    "incremental": true,
+    "module": "esnext",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve"
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+<<<<<<< HEAD
+  ],
+=======
+, "components/MovieList.jsx", "pages/api/movies.jsx", "components/CustomerPage.jsx", "pages/Products.tsx", "pages/api/customer.jsx"  ],
+>>>>>>> 08b87fd (Affiche movies et customers)
+  "exclude": [
+    "node_modules"
+  ]
+}
